@@ -1,15 +1,12 @@
 public class ifelse {
     public static void main(String[] args) {
 
-        int cash = 10;
+        int cash = 100;
+        int age = 18;
 
         String result;
 
-        if (cash > 60) {
-            result = "Successful payment";
-        } else {
-            result = "No enough money";
-        }
+        result = cash>60&age>=18?"Succesful payment":"Not enough money";
         System.out.println(result);
     }
 }
