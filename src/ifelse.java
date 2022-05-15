@@ -13,6 +13,7 @@ public class ifelse {
         int s = summ(10,21);
         printMe(s);
         System.out.println(factor(10));
+        System.out.println(recursfactor(10));
     }
     public static void printMe(int number) {
         System.out.println(number);
@@ -31,5 +32,11 @@ public class ifelse {
             result = result * i;
         }
         return result;
+    }
+    public static int recursfactor(int l) {
+        if (l==0) {
+            return 1;
+        }
+        return l * recursfactor(l-1);
     }
 }
