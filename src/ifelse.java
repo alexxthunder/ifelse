@@ -1,12 +1,10 @@
 public class ifelse {
     public static void main(String[] args) {
 
-        int cash = 100;
-        int age = 18;
+        int[] numbers = {3, 5, 10, 22, 12, 42, -8, 21};
 
-        String result;
-
-        result = cash>60&age>=18?"Succesful payment":"Not enough money";
-        System.out.println(result);
+        for(int i = 0; i<numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
     }
 }
