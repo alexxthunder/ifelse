@@ -4,6 +4,7 @@ public class ifelse {
         int cash = 100;
         int age = 18;
 	int offer = 30;
+	int joboffer = 700;
 
         String result;
 
