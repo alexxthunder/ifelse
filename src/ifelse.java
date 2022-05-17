@@ -3,6 +3,7 @@ public class ifelse {
 
         int cash = 100;
         int age = 18;
+	int offer = 30;
 
         String result;
 
