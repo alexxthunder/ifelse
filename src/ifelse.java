@@ -5,6 +5,7 @@ public class ifelse {
         int age = 18;
 	int offer = 30;
 	int joboffer = 700;
+	int nonoffer = 123;
 
         String result;
 
