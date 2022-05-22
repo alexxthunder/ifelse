@@ -6,9 +6,8 @@ public class ifelse {
 	int offer = 30;
 	int joboffer = 700;
 	int nonoffer = 123;
-
+	int casual = 250;
         String result;
-
         result = cash>60&age>=18?"Succesful payment":"Not enough money";
         System.out.println(result);
     }
